@@ -1,0 +1,13 @@
+{
+   "workspaceFolder": {
+      "AppUnderDev": "${workspaceRoot}"
+   },
+   "bsp": {
+      "board": "esp32_ethernet_kit",
+   },
+   "app": {
+      "name": "${config:workspaceFolder.AppUnderDev}",
+      "build_dir": "${config:workspaceFolder.AppUnderDev}\\build",
+   },
+   "cmake.configureOnOpen": false,
+}

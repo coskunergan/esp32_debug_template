@@ -3,7 +3,8 @@
       "AppUnderDev": "${workspaceRoot}"
    },
    "bsp": {
-      "board": "esp32_ethernet_kit",
+      //"board": "esp32_ethernet_kit",// ZephyrOS V3.7.1 LTS
+      "board": "esp32_ethernet_kit/esp32/procpu",
    },
    "app": {
       "name": "${config:workspaceFolder.AppUnderDev}",
